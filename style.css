@@ -4,18 +4,40 @@
     box-sizing: border-box;
 }
 
-header{
+.main{
     background-image: url("/assets/bg_img.jpg"); 
     height: 90vh;
     width: 100%;
     background-size: cover;
     position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
-header .box{
+.main .box{
     height: 90vh;
     width: 100%;
     background-color: black;
-    opacity: 0.7;
+    opacity: 0.44;
     position: absolute;
+    top: 0;
+}
+nav{
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+}
+
+nav img{
+    color: red;
+    width: 120px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
 }
