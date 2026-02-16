@@ -60,6 +60,9 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: black;
+}
 .main {
     background-image: url("/assets/bg_img.jpg");
     height: 90vh;
@@ -68,6 +71,7 @@
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
+ 
 }
 
 .main .box {
@@ -102,19 +106,20 @@ nav button {
 
 .hero {
     font-family: 'NetflixSans', sans-serif;
-    height: 100%;
+    height: calc(100% - 62px);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     color: white;
     position: relative;
-
+    
+    padding: 0px 29px;
 }
 
 .hero h1 {
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", sans-serif;
-    font-size: 56px;
+    font-size: 55px;
     font-weight: 900;
     line-height: 70px;
     text-align: center;
@@ -123,18 +128,19 @@ nav button {
 .hero span {
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", sans-serif;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     margin-top: 16px;
     line-height: normal;
-
+    text-align: center;
 }
 
 .hero p {
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", sans-serif;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 450;
     margin-top: 16px;
     line-height: 24px;
+    text-align: center;
 }
 
 .hero input {
@@ -143,8 +149,33 @@ nav button {
     padding: 16px;
     width: 250px;
     border: 1px solid #333;
-
     font-size: 16px;
 
 
+}
+.separation {
+    height: 2.5px;
+    background-color:  rgb(243, 46, 230);
+}
+
+.btn{
+    padding: 3px 8px;
+
+}
+
+.btn-red{
+    padding: 10px 20px;
+    font-weight: 500;
+    size: 18px;
+    line-height: 18px;
+    color: white;
+    background-color: red;
+}
+
+.btn-red-sn{
+    font-weight: 500;
+    size: 18px;
+    line-height: 18px;
+    color: white;
+    background-color: red;
 }
