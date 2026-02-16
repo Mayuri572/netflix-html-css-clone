@@ -60,9 +60,10 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: black;
 }
+
 .main {
     background-image: url("/assets/bg_img.jpg");
     height: 90vh;
@@ -71,14 +72,14 @@ body{
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
- 
+
 }
 
 .main .box {
     height: 90vh;
     width: 100%;
     background-color: black;
-    opacity: 0.44;
+    opacity: 0.74;
     position: absolute;
     top: 0;
 }
@@ -93,15 +94,18 @@ nav {
 }
 
 nav img {
-    color: red;
-    width: 120px;
+    color: rgb(243, 28, 28);
+    width: 200px;
     position: relative;
     z-index: 10;
+    height: 79px;
+    margin-top: 18px;
 }
 
 nav button {
     position: relative;
     z-index: 10;
+    margin-top: 18px;
 }
 
 .hero {
@@ -113,7 +117,7 @@ nav button {
     flex-direction: column;
     color: white;
     position: relative;
-    
+
     padding: 0px 29px;
 }
 
@@ -127,61 +131,92 @@ nav button {
 
 .hero span {
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     margin-top: 16px;
     line-height: normal;
     text-align: center;
+    margin-top: 9px;
 }
 
 .hero p {
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", sans-serif;
-    font-size: 16px;
-    font-weight: 450;
-    margin-top: 16px;
+    font-size: 17px;
+    font-weight: 460;
+    
     line-height: 24px;
     text-align: center;
+    margin-top: 27px;
+    margin-bottom: 5px;
 }
 
 .hero input {
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", sans-serif;
     margin-top: 16px;
     padding: 16px;
-    width: 250px;
+    width: 360px;
     border: 1px solid #333;
     font-size: 16px;
 
 
 }
+
 .separation {
     height: 2.5px;
-    background-color:  rgb(243, 46, 230);
+    background-color: rgb(243, 46, 230);
 }
 
-.btn{
+.btn {
     padding: 3px 8px;
 
 }
 
-.btn-red{
-    padding: 18px 27px;
+.btn-red {
+    padding: 18px 24px;
     font-weight: 500;
     size: 18px;
     line-height: 18px;
     color: white;
-    background-color: rgb(239, 6, 6);
+    background-color: rgb(216, 18, 18);
     font-size: 25px;
     border: none;
-    border-radius: 5%;
+    border-radius: 8px;
+    margin-left: 5px;
 }
 
-.btn-red-sn{
-    
+.btn-red-sn {
+    padding: 7px 15px;
+    border-radius: 5px;
     font-weight: 500;
     size: 18px;
     line-height: 18px;
     color: white;
-    background-color: red;
+    background-color: rgb(216, 18, 18);
     font-size: 15px;
     border: none;
+    font-size: medium;
+    margin-left: 5px;
+}
+
+.btn-btn {
+    padding: 5px 28px;
+    border-radius: 5px;
+    font-weight: 500;
+    size: 16px;
+    line-height: 20px;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.784);
+    border: 1px solid rgba(255, 255, 255, 0.499);
+    color: white;
+    font-size: medium;
+}
+
+.hero input {
+    border-radius: 5px;
+    padding: 15px 20px;
+    background-color: rgba(23, 23, 23, 0.784);
+    border: 1px solid rgba(255, 255, 255, 0.499);
+    color: white;
+    font-weight: 500;
+    
 }
