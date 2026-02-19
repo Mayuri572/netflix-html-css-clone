@@ -225,21 +225,23 @@ nav button {
     width: min(1200px, 76vw);
     margin: 30px auto 0;
     height: 700px;
+    margin-left: 140px;
 }
 
 .section-title {
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", sans-serif;
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 650;
     line-height: 20px;
     color: rgb(255, 255, 255);
-    margin-left: 0;
-    
+    margin-left: -30px;
+    margin-top: 50px;
+    margin-bottom: 35px;
 }
 
 .slider{
     display: flex;
-    gap: 22px;
+    gap: 42px;
     margin-top: 25px;
     overflow-x: auto;
     scrollbar-width:auto;
@@ -261,7 +263,7 @@ nav button {
     border-radius: 10px;
     overflow: visible;
     padding: 0;
-    margin-left: 30px;
+    margin-left: 0px;
 }
 
 .card:hover {
@@ -275,17 +277,18 @@ nav button {
     border-radius: 10px;
     object-fit: cover;
     display: block;
-    margin-left: 0;
+    margin-left: 19px;
 
 }
 .number{
     position: absolute;
     top: 120px;
-    left: -18px;
+    left: 0px;
     bottom: 15px;
-    color: black;
-    font-size: 108px;
-    -webkit-text-stroke: 2px #ffffff;
+    color: rgb(16, 15, 15);
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+    font-size: 6.25rem;
+    -webkit-text-stroke: 2px #c1baba;
     font-weight: 1000;
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", sans-serif;
 }
