@@ -163,7 +163,7 @@ nav button {
 
 .separation {
     height: 2.5px;
-    background-color: rgb(243, 46, 230);
+    background-color: rgb(57, 51, 56);
 }
 
 .btn {
@@ -222,33 +222,30 @@ nav button {
 }
 
 .container {
-    max-width: 60vw;
-    margin-left: 34px;
+    width: min(1200px, 76vw);
+    margin: 30px auto 0;
     height: 700px;
-    margin-top: 30px;
-    max-width: 900px;
-    margin-left: 12vw;
-    margin-right: 12vw;
 }
 
 .section-title {
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", sans-serif;
-    font-size: 19px;
-    font-weight: bold;
-    line-height: 24px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 20px;
     color: rgb(255, 255, 255);
-    
+    margin-left: 0;
     
 }
 
 .slider{
     display: flex;
-    gap: 29px;
-    margin-top: 20px;
+    gap: 22px;
+    margin-top: 25px;
     overflow-x: auto;
-    scrollbar-width: none; 
-    scrollbar-snaps-type: x mandatory;
-
+    scrollbar-width:auto;
+    scroll-snap-type: x mandatory;
+   
+    
 }
 
 .slider::-webkit-scrollbar {
@@ -257,15 +254,14 @@ nav button {
 
 .card {
     position: relative;
-    width: 200px;
+    width: 185px;
     flex: 0 0 auto;
-    border-radius: 5px;
     height: 300px;
     scroll-snap-align: start;
-    border-radius: 8px;
+    border-radius: 10px;
     overflow: visible;
-    padding: 10px 10px ;
-    margin-left: 16px;
+    padding: 0;
+    margin-left: 30px;
 }
 
 .card:hover {
@@ -274,20 +270,21 @@ nav button {
     transition: transform 0.3s ease;
 }
 .card img{
+    width: 100%;
     height: auto;
     border-radius: 10px;
     object-fit: cover;
     display: block;
-    margin-left: 30px;
+    margin-left: 0;
 
 }
 .number{
     position: absolute;
-    top: 145px;
-    left: 25px;
+    top: 120px;
+    left: -18px;
     bottom: 15px;
     color: black;
-    font-size: 90px;
+    font-size: 108px;
     -webkit-text-stroke: 2px #ffffff;
     font-weight: 1000;
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", sans-serif;
