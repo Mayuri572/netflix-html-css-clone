@@ -224,34 +224,34 @@ nav button {
 .container {
     width: min(1200px, 76vw);
     margin: 30px auto 0;
-    height: 700px;
-    margin-left: 140px;
+    height: 340px;
+    margin-left: 150px;
 }
 
 .section-title {
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", sans-serif;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 650;
     line-height: 20px;
     color: rgb(255, 255, 255);
-    margin-left: -30px;
+    margin-left: -5px;
     margin-top: 50px;
     margin-bottom: 35px;
 }
 
-.slider{
+.slider {
     display: flex;
     gap: 42px;
     margin-top: 25px;
     overflow-x: auto;
-    scrollbar-width:auto;
+    scrollbar-width: auto;
     scroll-snap-type: x mandatory;
-   
-    
+
+
 }
 
 .slider::-webkit-scrollbar {
-    display: none; 
+    display: none;
 }
 
 .card {
@@ -271,7 +271,8 @@ nav button {
     z-index: 10;
     transition: transform 0.3s ease;
 }
-.card img{
+
+.card img {
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -280,7 +281,8 @@ nav button {
     margin-left: 19px;
 
 }
-.number{
+
+.number {
     position: absolute;
     top: 120px;
     left: 0px;
@@ -291,4 +293,94 @@ nav button {
     -webkit-text-stroke: 2px #c1baba;
     font-weight: 1000;
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", sans-serif;
+}
+
+.container2 .container1 {
+    width: min(1200px, 76vw);
+    margin: auto;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.container2 {
+    margin-top: 0px;
+    height: 470px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.section {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+    padding: 0px 0px;
+    height: 277px;
+    width: 78vw;
+    box-sizing: border-box;
+}
+
+.card2 {
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", sans-serif;
+    color: white;
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    border-radius: 18px;
+    width: 1001%;
+        position: relative;
+}
+
+.card2 h3 {
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: 650;
+    line-height: normal;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.card2 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.card2 .img1 {
+    width: 75px;
+    height: 72px;
+    object-fit: cover;
+    display: block;
+    margin-left: 200px;
+    margin-top: 49px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.card2 .img4 {
+    width: 65px;
+    height: 62px;
+    object-fit: cover;
+    display: block;
+    margin-left: 205px;
+    margin-top: 38px;
+}
+
+.card2 .img3 {
+    width: 65px;
+    height: 61px;
+    object-fit: cover;
+    display: block;
+    margin-left: 204px;
+    margin-top: 39px;
+}
+
+.card2 .img2 {
+    width: 66px;
+    height: 63px;
+    object-fit: cover;
+    display: block;
+    margin-left: 205px;
+    margin-top: 54px;
 }
