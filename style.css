@@ -284,7 +284,7 @@ nav button {
 
 .number {
     position: absolute;
-    top: 120px;
+    top: 130px;
     left: 0px;
     bottom: 15px;
     color: rgb(16, 15, 15);
@@ -304,8 +304,8 @@ nav button {
 
 .container2 {
     margin-top: 0px;
-    height: 470px;
-    margin-left: 150px;
+    height: 365px;
+    margin-left: 145px;
     margin-right: 150px;
 }
 
@@ -339,7 +339,7 @@ nav button {
 
 .card2 p {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 499;
     line-height: normal;
     margin-top: 15px;
     margin-left: 20px;
