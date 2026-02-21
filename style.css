@@ -180,7 +180,7 @@ nav button {
     background-color: rgb(216, 18, 18);
     font-size: 25px;
     border: none;
-    border-radius: 8px;
+    border-radius: 7px;
     margin-left: 5px;
 }
 
@@ -388,7 +388,7 @@ nav button {
 .container3 {
     width: min(1200px, 76vw);
     
-    height: 100%;
+    height: 90%;
     
 
 }
@@ -421,4 +421,50 @@ nav button {
     opacity: 100%;
     width: min(1200px, 78vw);
     margin-bottom: 8px;
+}
+
+.content2 {
+    color: white;
+        font-family: 'NetflixSans', sans-serif; 
+}
+
+.content2 p {
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 27px;
+    margin-bottom: 5px;
+}
+
+.content2 input{
+    border-radius: 4px;
+    padding: 20px 13vw;
+    background-color: rgba(23, 23, 23, 0.784);
+    border: 1px solid rgba(255, 255, 255, 0.499);
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+   
+}
+.content2 .input{
+   justify-content: center;
+   text-align: center;
+}
+
+.content2 .btn-red2{
+    
+    padding: 20px 2.5vw;
+    font-weight: 400;
+    size: 18px;
+    line-height: 18px;
+    color: white;
+    background-color: rgb(216, 18, 18);
+    font-size: 25px;
+    border: none;
+    border-radius: 7px;
+    margin-left: 5px;
+    margin-top: 6px;
 }
