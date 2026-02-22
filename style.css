@@ -449,7 +449,7 @@ nav button {
     color: rgb(201, 194, 194);
     font-weight: 540;
     text-align: left;
-
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", sans-serif;
 
 }
 
@@ -460,7 +460,7 @@ nav button {
 }
 
 .btn-red2 {
-    
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", sans-serif;
     line-height: 31px;
     padding-right: 19px;
     padding-left: 19px;
@@ -484,4 +484,43 @@ nav button {
     text-align: center;
     justify-content: center;
 
+}
+footer{
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", sans-serif;
+    color: white;
+    margin-top: 70px;
+    margin-left: 11vw;
+    margin-right: 12vw;
+    height: 650px;
+    width: 75vw;
+    font-weight: 400;
+    font-size: 16px;
+}
+.call{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.call a{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.foot-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    width: 100%;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+.foot a{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    font-weight: 499;
+    line-height: 21px
 }
