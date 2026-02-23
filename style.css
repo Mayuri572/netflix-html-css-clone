@@ -475,7 +475,7 @@ nav button {
     margin-left: 5px;
     justify-content: center;
     text-align: center;
-   
+
 }
 
 .email-input {
@@ -485,42 +485,82 @@ nav button {
     justify-content: center;
 
 }
-footer{
+
+footer {
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", sans-serif;
     color: white;
     margin-top: 70px;
-    margin-left: 11vw;
+    margin-left: 10vw;
     margin-right: 12vw;
-    height: 650px;
-    width: 75vw;
+    height: 290px;
+    width: 78vw;
     font-weight: 400;
     font-size: 16px;
 }
-.call{
+
+.call {
     color: rgba(255, 255, 255, 0.7);
 }
 
-.call a{
+.call a {
     color: rgba(255, 255, 255, 0.7);
 }
 
-.foot-grid{
+.foot-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    gap: 25px;
 }
 
-.foot{
+.foot {
     display: flex;
     flex-direction: column;
-    gap: 13px;
+    gap: 14px;
     width: 100%;
     margin-top: 30px;
     padding-top: 10px;
 }
-.foot a{
+
+.foot a {
     color: rgba(255, 255, 255, 0.7);
     font-size: 15px;
     font-weight: 499;
     line-height: 21px
 }
+
+footer p {
+
+    margin-top: 35px;
+}
+
+#para {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+#para2 {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#para2 a {
+    color: rgb(68, 142, 244);
+}
+
+.btn-btn1 {
+    padding: 4px 32px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.784);
+    border: 1px solid rgba(255, 255, 255, 0.499);
+    margin-top: 65px;
+}
+
