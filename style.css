@@ -552,37 +552,46 @@ footer p {
     color: rgb(68, 142, 244);
 }
 
-.btn-btn1 {
-    padding: 4px 32px;
-    border-radius: 5px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 25px;
-    color: white;
-    background-color: rgba(23, 23, 23, 0.784);
-    border: 1px solid rgba(255, 255, 255, 0.499);
-    margin-top: 65px;
-}
 
 .land-se {
-    padding: 4px 0px;
+    padding: 2px 0px;
     border-radius: 5px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 25px;
+    line-height: 21px;
     color: white;
-    background-color: rgba(23, 23, 23, 0.784);
+    background-color: rgb(15, 15, 15);
     border: 1px solid rgba(255, 255, 255, 0.499);
     margin-top: 65px;
     width: 8vw;
+    height: 30px;
+    display: flex;
+     position: relative;
+
 }
 
 select {
-    background-color: rgba(23, 23, 23, 0.784);
+    background-color: rgb(15, 15, 15);
     color: white;
     border: none;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 14px;
+    line-height: 21px;
     padding-right: 7px;
+    padding-bottom: 4px;
+    padding-top: 3px;
+    border-style: none;
+    
 }
+
+.land-se img {
+
+    padding-left: 3px;
+    width: 30px;
+    height: 26px;
+
+}
+.lang{
+    width: 5vw;
+}
+
