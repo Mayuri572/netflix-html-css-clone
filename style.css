@@ -85,7 +85,7 @@ body {
 }
 
 nav {
-    max-width: 60vw;
+    max-width: 80vw;
     margin: auto;
     display: flex;
     align-items: center;
@@ -93,7 +93,7 @@ nav {
     height: 62px;
 }
 
-nav img {
+nav span img {
     color: rgb(243, 28, 28);
     width: 200px;
     position: relative;
@@ -103,6 +103,12 @@ nav img {
 }
 
 nav button {
+    position: relative;
+    z-index: 10;
+    margin-top: 18px;
+}
+
+nav .land-se {
     position: relative;
     z-index: 10;
     margin-top: 18px;
@@ -196,19 +202,6 @@ nav button {
     border: none;
     font-size: medium;
     margin-left: 5px;
-}
-
-.btn-btn {
-    padding: 5px 28px;
-    border-radius: 5px;
-    font-weight: 500;
-    size: 16px;
-    line-height: 20px;
-    color: white;
-    background-color: rgba(23, 23, 23, 0.784);
-    border: 1px solid rgba(255, 255, 255, 0.499);
-    color: white;
-    font-size: medium;
 }
 
 .hero input {
@@ -552,11 +545,16 @@ footer p {
     color: rgb(68, 142, 244);
 }
 
+.btn-btn {
+    position: relative;
+    display: inline-block;
+}
+
 .land-se {
     position: relative;
     display: inline-block;
-     margin-top: 65px;
-     
+    margin-top: 65px;
+
 }
 
 .lang-icon {
@@ -566,11 +564,13 @@ footer p {
     transform: translateY(-50%);
     width: 40px;
     height: 30px;
-    pointer-events: none; /* allows clicking through icon */
+    pointer-events: none;
+    /* allows clicking through icon */
 }
 
 .lang {
-    padding: 4px 30px 8px 40px;  /* left padding makes space for icon */
+    padding: 4px 30px 8px 40px;
+    /* left padding makes space for icon */
     border: 1px solid rgba(155, 155, 155, 0.499);
     border-radius: 4px;
     background-color: rgb(15, 15, 15);
@@ -581,8 +581,9 @@ footer p {
     -moz-appearance: none;
     cursor: pointer;
     padding-top: 7px;
-    
+
 }
+
 .land-se::after {
     content: "▼";
     position: absolute;
@@ -593,6 +594,7 @@ footer p {
     color: white;
     pointer-events: none;
 }
+
 .land-se img {
     background-clip: padding-box;
     padding-right: 4px;
