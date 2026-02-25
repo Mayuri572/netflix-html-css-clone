@@ -552,46 +552,51 @@ footer p {
     color: rgb(68, 142, 244);
 }
 
-
 .land-se {
-    padding: 2px 0px;
-    border-radius: 5px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 21px;
-    color: white;
-    background-color: rgb(15, 15, 15);
-    border: 1px solid rgba(255, 255, 255, 0.499);
-    margin-top: 65px;
-    width: 8vw;
-    height: 30px;
-    display: flex;
-     position: relative;
-
+    position: relative;
+    display: inline-block;
+     margin-top: 65px;
+     
 }
 
-select {
+.lang-icon {
+    position: absolute;
+    left: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 30px;
+    pointer-events: none; /* allows clicking through icon */
+}
+
+.lang {
+    padding: 4px 30px 8px 40px;  /* left padding makes space for icon */
+    border: 1px solid rgba(155, 155, 155, 0.499);
+    border-radius: 4px;
     background-color: rgb(15, 15, 15);
     color: white;
-    border: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 21px;
-    padding-right: 7px;
-    padding-bottom: 4px;
-    padding-top: 3px;
-    border-style: none;
+    font-size: 16px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    padding-top: 7px;
     
 }
-
+.land-se::after {
+    content: "▼";
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 8px;
+    color: white;
+    pointer-events: none;
+}
 .land-se img {
-
-    padding-left: 3px;
-    width: 30px;
-    height: 26px;
+    background-clip: padding-box;
+    padding-right: 4px;
+    width: 35px;
+    height: 29px;
 
 }
-.lang{
-    width: 5vw;
-}
-
