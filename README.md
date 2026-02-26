@@ -13,6 +13,14 @@ Netflix landing page clone built using HTML and CSS to practice front-end design
 - HTML5
 - CSS3
 
+## 🚀 Project Status
+
+This Netflix clone is built using HTML and CSS only.
+All layout and styling parts are completed.
+
+Note:
+Interactive features like authentication, slider functionality, and dynamic content require JavaScript and are not implemented in this version.
+
 ## Project Structure
 
 index.html  
